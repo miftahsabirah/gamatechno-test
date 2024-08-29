@@ -5,18 +5,28 @@ export default {
   // ],
   content: [
     "./components/**/*.{js,vue,ts}",
-    "./layouts/**/*.vue",
-    "./pages/**/*.vue",
+    "./layouts/**/*.{js,vue,ts}",
+    "./pages/**/*.{js,vue,ts}",
     "./plugins/**/*.{js,ts}",
     "./nuxt.config.{js,ts}",
     "./node_modules/flowbite/**/*.{js,ts}"
   ],
 
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        dark: {
+          "primary": "#070C29"
+        }
+      }
+    },
   },
   plugins: [
     require('flowbite/plugin')
   ],
+  variants: {
+    display: ['responsive'],
+  },
+
 }
 
