@@ -55,6 +55,11 @@ const listTimelines = [
         work: "Developed 30+ pages for the School Profile website, creating interactive and responsive interfaces for cross-device compatibility using HTML, JavaScript, and Tailwind."
     },
     {
+        time: "May 2024 - Jun4 2023",
+        place: "RubEase Mobile App Design (UI/UX)",
+        work: "Created more than 50 pages for the admin and public interfaces of the Gizkia website, emphasizing interactive and responsive design to improve user engagement and experience",
+    },
+    {
         time: "May 2024",
         place: "Syncpos (Frontend)",
         work: "Developed a user-friendly and responsive design interface for managing and tracking health data, improving the efficiency of data collection and analysis, Collaborated with backend developers using Laravel for reliable backend functionality",
@@ -62,7 +67,7 @@ const listTimelines = [
     {
         time: "September 2023 - December 2023",
         place: "GIZKIA Website (Frontend)",
-        work: "Created more than 50 pages for the admin and public interfaces of the Gizkia website, emphasizing interactive and responsive design to improve user engagement and experienc¸",
+        work: "Created more than 50 pages for the admin and public interfaces of the Gizkia website, emphasizing interactive and responsive design to improve user engagement and experience",
     },
 ];
 </script>
