@@ -19,7 +19,7 @@ const props = defineProps({
   <div class="flex justify-center pb-3">
     <div class="max-w-sm bg-white border border-gray-200 rounded-xl shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col">
       <a :href="link">
-        <img class="rounded-t-xl" src="assets/image/webPorto.png" alt="Image" />
+        <img class="rounded-t-xl" src="assets/image/webporto.png" alt="Image" />
       </a>
       <div class="flex-1 p-5 flex flex-col">
         <a :href="link">
