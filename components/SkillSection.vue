@@ -5,7 +5,7 @@
     </h1>
   </div>
 
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-6">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6">
     <!-- card 1 -->
     <div class="my-card bg-white rounded-2xl py-10 px-8 flex flex-col gap-y-4">
       <svg width="47" height="46" viewBox="0 0 47 46" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -29,12 +29,11 @@
           stroke="#640EF1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
       </svg>
       <h3 class="text-indigo-950 font-bold text-2xl">
-        Extra Layers
+        UI Design
       </h3>
       <p class="text-[#5D5D7C]">
-        Making your project more secure avoiding DDoS
+        Experience in successfully completing several projects, specializing in creating visually compelling and intuitive interfaces that enhance user interaction and satisfaction
       </p>
-      <a href="#" class="text-violet-700 hover:text-indigo-950">Learn More</a>
     </div>
     <!-- card 2 -->
     <div class="my-card bg-white rounded-2xl py-10 px-8 flex flex-col gap-y-4">
@@ -50,56 +49,14 @@
           stroke="#640EF1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
       </svg>
       <h3 class="text-indigo-950 font-bold text-2xl">
-        Customizable
+        Web Development
       </h3>
       <p class="text-[#5D5D7C]">
-        Only install what your business needs to grow
+        Several years of experience in web development have been dedicated to crafting numerous websites and successfully completing various projects
       </p>
-      <a href="#" class="text-violet-700 hover:text-indigo-950">Learn More</a>
     </div>
+
     <!-- card 3 -->
-    <div class="relative my-card bg-indigo-950 rounded-2xl py-10 px-8 flex flex-col">
-      <div class="absolute top-3 right-5">
-        <svg width="178" height="221" viewBox="0 0 178 221" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <g filter="url(#filter0_f_1_371)">
-            <ellipse cx="97.65" cy="102.527" rx="32.0478" ry="76.7916" transform="rotate(30 97.65 102.527)"
-              fill="#424560" />
-          </g>
-          <defs>
-            <filter id="filter0_f_1_371" x="0.27005" y="-15.8951" width="194.76" height="236.845"
-              filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
-              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-              <feGaussianBlur stdDeviation="25" result="effect1_foregroundBlur_1_371" />
-            </filter>
-          </defs>
-        </svg>
-      </div>
-      <div class="z-10 flex flex-col gap-y-4">
-        <svg width="47" height="46" viewBox="0 0 47 46" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M13.6867 34.7875V30.82" stroke="white" stroke-width="3" stroke-linecap="round" />
-          <path d="M23.5 34.7875V26.8525" stroke="white" stroke-width="3" stroke-linecap="round" />
-          <path d="M33.3133 34.7875V22.8658" stroke="white" stroke-width="3" stroke-linecap="round" />
-          <path d="M33.3133 11.2125L32.4317 12.2475C27.5442 17.9592 20.9892 22.0034 13.6867 23.8242" stroke="white"
-            stroke-width="3" stroke-linecap="round" />
-          <path d="M27.6975 11.2125H33.3133V16.8092" stroke="white" stroke-width="3" stroke-linecap="round"
-            stroke-linejoin="round" />
-          <path
-            d="M17.75 42.1666H29.25C38.8333 42.1666 42.6667 38.3333 42.6667 28.75V17.25C42.6667 7.66665 38.8333 3.83331 29.25 3.83331H17.75C8.16667 3.83331 4.33334 7.66665 4.33334 17.25V28.75C4.33334 38.3333 8.16667 42.1666 17.75 42.1666Z"
-            stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-        </svg>
-
-        <h3 class="text-white font-bold text-2xl">
-          AI Automation
-        </h3>
-        <p class="text-[#8D90A8]">
-          Decide the business flow based on latest reports
-        </p>
-        <a href="#" class="text-white hover:text-violet-700">Learn More</a>
-      </div>
-
-    </div>
-    <!-- card 4 -->
     <div class="my-card bg-white rounded-2xl py-10 px-8 flex flex-col gap-y-4">
       <svg width="47" height="46" viewBox="0 0 47 46" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M12 11.9792V15.8125" stroke="#640EF1" stroke-width="3" stroke-linecap="round"
@@ -121,12 +78,11 @@
           stroke="#640EF1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
       </svg>
       <h3 class="text-indigo-950 font-bold text-2xl">
-        Auto-Scaling
+        UX Design
       </h3>
       <p class="text-[#5D5D7C]">
-        Have a long weekend without worrying any loss
+        Designing seamless and efficient user experiences through research and user-centered design principles
       </p>
-      <a href="#" class="text-violet-700 hover:text-indigo-950">Learn More</a>
     </div>
   </div>
 </template>

@@ -6,6 +6,12 @@ export default {
 
 <template>
   <div class="container mx-auto px-2 w-full py-[30px] md:py-[50px] lg:py-[50px] overflow-hidden">
+    <!-- Start Hero -->
+    <section id="skill">
+      <Hero />
+    </section>
+    <!-- End Hero -->
+    
     <!-- Start timeline experience -->
     <section id="experience" class="py-10">
       <div class="flex justify-center items-center space-x-3 mb-10">
@@ -43,17 +49,20 @@ export default {
 <script setup>
 
 const listTimelines = [
-  {
-    time: "February 2024 - July 2024",
-    place: "PT FADHIL MIFTAH SEJAHTERA (Istri Developer)",
-    work: "COding bareng COding barengCOding barengCOding barengCOding barengCOding barengCOding barengCOding barengCOding barengCOding barengCOding barengCOding barengCOding barengCOding bareng ngCOding barengngCOding barengngCOding bareng",
-
-  },
-  {
-    time: "February 2024 - July 2024",
-    place: "PT Global Data Inspirasi (Backend)",
-    work: "COding bareng COding barengCOding barengCOding barengCOding barengCOding barengCOding barengCOding barengCOding barengCOding barengCOding barengCOding barengCOding barengCOding bareng ngCOding barengngCOding barengngCOding bareng",
-
-  },
+    {
+        time: "February 2024 - June 2024",
+        place: "School Profile Website (Frontend)",
+        work: "Developed 30+ pages for the School Profile website, creating interactive and responsive interfaces for cross-device compatibility using HTML, JavaScript, and Tailwind."
+    },
+    {
+        time: "May 2024",
+        place: "Syncpos (Frontend)",
+        work: "Developed a user-friendly and responsive design interface for managing and tracking health data, improving the efficiency of data collection and analysis, Collaborated with backend developers using Laravel for reliable backend functionality",
+    },
+    {
+        time: "September 2023 - December 2023",
+        place: "GIZKIA Website (Frontend)",
+        work: "Created more than 50 pages for the admin and public interfaces of the Gizkia website, emphasizing interactive and responsive design to improve user engagement and experienc¸",
+    },
 ];
 </script>
