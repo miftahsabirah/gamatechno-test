@@ -7,7 +7,7 @@ export default {
 <template>
   <div class="container mx-auto px-2 w-full py-[30px] md:py-[50px] lg:py-[50px] overflow-hidden">
     <!-- Start Hero -->
-    <section id="skill">
+    <section id="hero">
       <Hero />
     </section>
     <!-- End Hero -->
@@ -34,7 +34,7 @@ export default {
     <!-- end What Can I do for you -->
 
     <!-- Start projects -->
-    <section className="max-w-6xl mx-auto flex flex-col gap-y-8 py-10">
+    <section id="projects" className="max-w-6xl mx-auto flex flex-col gap-y-8 py-10">
       <div class="flex justify-center items-center space-x-3 mb-10">
         <h1 class="font-semibold text-xl md:text-4xl text-black">
           All Projects
